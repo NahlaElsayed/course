@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="model.css">
+    <title>Nahla</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__form">
+            <h1>Register</h1>
+            <form action="">
+                <label for="uname">Your Name</label>
+                <input name="uname" type="text" placeholder="your_name" id="uname">
+                <br>
+                <label for="age">Age</label>
+                <input name="age" type="number" placeholder="your_age" id="age">
+                <br>
+                <label for="courses">Courses</label>
+                <ul>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Ecma6</li>
+                    <li>Python</li>
+                    <li>c#</li>
+                    <li>React</li>
+                    <li>Mysql</li>
+                    <li>c++</li>
+                </ul>
+                <div class="but">
+                    <input type="submit" value="ADD" id="add">
+                    <input type="reset" value="Delete">
+                </div>
+        </div>
+        <div class="cont_table">
+            <h1>Table Data</h1>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Courses</th>
+                    <th>Action</th>
+                </tr>
+            </table>
+            <button id="del_all">Delete All</button>
+        </div>
+    </div>
+    <script src="model.js"></script>
+</body>
+</html>
